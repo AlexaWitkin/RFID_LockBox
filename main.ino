@@ -1,3 +1,7 @@
+// Alexa Witkin 
+// Nov 16. 2025
+// Main for CMPE3815 - Lock
+
 #include <SPI.h>
 #include <MFRC522.h>
 #include <Servo.h>
