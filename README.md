@@ -1,2 +1,5 @@
 # RFID_LockBox
-ATMega + RFID + Servo LockBox
+### Abstract 
+This project presents the design and implementation of a compact RFID-controlled lockbox intended to provide secure personal storage for an end user sharing a living space with a roommate. The goal was to create a reliable, stand-alone access-control system while gaining hands-on experience working with the ATmega328P as a discrete microcontroller rather than relying on a full Arduino development board. The system integrates an RC522 RFID reader operating at 13.56 MHz, a custom-designed PCB incorporating power regulation, logic-level shifting, and microcontroller support circuitry, and a servo-based mechanical locking mechanism housed within a laser-cut wooden enclosure. Throughout development, particular attention was given to power constraints, signal-integrity challenges between 5V and 3.3V domains, and practical issues such as servo initialization and UID formatting. The final design successfully demonstrates a functional, durable lockbox that reliably authenticates RFID tags and actuates a locking mechanism, achieving the project’s objectives in both usability and technical learning.
+
+** For more information view 'CMPE 3185 Final Project.pdf'
